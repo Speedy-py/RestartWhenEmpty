@@ -1,0 +1,11 @@
+name: RestartWhenEmpty
+version: 1.0.0
+main: me.restart.RestartWhenEmpty
+api-version: '26.1.2'
+commands:
+  restart:
+    description: Restart the server now
+    permission: restartwhenempty.restart
+permissions:
+  restartwhenempty.restart:
+    default: op
